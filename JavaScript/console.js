@@ -11,7 +11,7 @@ if (cvladi < 50 && cvladi > 20) {
 
 let cvladi1 = "მარიამ";
 
-if (cvladi1 = "მარიამ") {
+if (cvladi1 == "მარიამ") {
     console.log("true");
 } else {
     console.log("false");
