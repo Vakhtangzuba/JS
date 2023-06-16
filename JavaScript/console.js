@@ -19,7 +19,7 @@ if (cvladi1 = "მარიამ") {
 
 
 
-const saxeli = 'mariam';
+let saxeli = 'mariam';
 switch (saxeli) {
   case 'mariam':
     console.log('true');
