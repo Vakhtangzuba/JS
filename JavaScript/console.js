@@ -4,6 +4,8 @@ if (cvladi < 50 && cvladi > 20) {
   console.log("ნაკლებია 50-ზე და მეტია 20-ზე")
 } else if (cvladi  >50 || cvladi < 20) {
   console.log("error")
+} else {
+  console.log ("main Error")
 }
 
 
