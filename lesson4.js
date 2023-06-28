@@ -139,6 +139,9 @@ console.log(newlanguages);
 
 let words = ["Madrid", "Rome", "Milan", "Berlin"];
 
+let newwords = words.filter(myword => myword.includes('m') || myword.includes('M'))
+console.log(newwords);
+
 // let newwords = words.filter(function (x) {});
 
 // 10.შეამოწმეთ მოცელუმ მასივში let arr = [-1, -2, -3, 4]; არის თუ არა ერთი მაინც დადებითი რიცხვი some მეთიდით.
